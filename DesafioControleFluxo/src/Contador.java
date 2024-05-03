@@ -30,10 +30,10 @@ public class Contador {
 				
 				static void contar(int x,int y) throws Exception {
 					
-					if(x > y) {
+					if( y < x ) {
 						throw new Exception("O Segundo Parâmetro deve ser Maior que o Primeiro ");
 					}else
-						if(x > y);
+						if( y > x);
 						int resultado = (y-x);
 						System.out.print("Número de iterações: " + resultado);
 						System.out.println(" ");
